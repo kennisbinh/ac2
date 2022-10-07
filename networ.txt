@@ -1,0 +1,6 @@
+
+  -sudo dhclient
+  -sudo systemctl restart NetworkManager
+
+fsck -f /dev/sdXX
+fsck -y /dev/sdaX
